@@ -11,10 +11,13 @@ document.getElementById('triangle-btn').addEventListener('click', function(){
     
     const totalArea= 0.5*triangleNumberField*triangleHeightNumber;
 
+   const triangleResultDisplay= document.getElementById('triangle-result-display');
    const triangleResult= document.getElementById('triangle-result');
    triangleResult.innerText= totalArea;
-
-    
+   
+   triangleResultDisplay.style.display='block';
+   triangleField.value='';
+   triangleHeightField.value='';
 });
   
     

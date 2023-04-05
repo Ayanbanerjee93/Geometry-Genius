@@ -1,0 +1,10 @@
+.text-small{
+    font-size: 10px;
+}
+.btn-space{
+    padding: 3px;
+}
+#triangle-result-display{
+
+    display: none;
+}
