@@ -24,20 +24,20 @@
        </div>
       
     </header>
-    <!-- header ends & main section starts here -->
+                    <!-- header ends & main section starts here -->
 
     <main class="ml-48">
 
-        <!-- ------------First Row starts here------------------ -->
+              <!-- ------------First Row starts here------------------ -->
 
         <!-- card one  -->
 
-        <div class="flex mt-5 justify-between w-3/4 space-x-9 ">
+        <div class="flex mt-5  space-x-2 ">
             <div class="h-auto	 w-72 rounded border 	 p-5">
             
                 <!-- image div -->
                 <div class="">
-                    <img src="images/triangle.png" alt="" srcset="">
+                    <img src="images/triangle.png" style="" alt="" srcset="">
                 </div>
     
                 <div class="text-center mt-5">
@@ -59,38 +59,32 @@
                         <button id="triangle-btn" class="rounded bg-blue-600 font-medium px-14 py-2 text-1xl text-white">Calculate</button>
                     </div>
         </div>
-                
-
-
-        <!-- card 2 -->
-        
-
-        
-        </div>
+   </div>
+    <!-- card 2 -->
             <div class="h-auto	 w-72 rounded border 	 p-5">
             
                 <!-- image div -->
                 <div class="">
-                    <img src="images/rectangle.png" style="height: 150px; width:200px"alt="" srcset="">
+                    <img src="images/rectangle.png" class="card-positioning" alt="" srcset="">
                 </div>
     
-                <div class="text-center mt-5">
+                <div class="text-center pt-8">
                     
                     <h1 class="font-bold pt-1">Rectangle</h1>
                     
-                    <p class="pt-1">Area (A) = w X i</p>
+                    <p class="pt-1">Area (A)&nbsp; = w&nbsp; X &nbsp;i</p>
                     
                     <!-- input box -->
-                    <div class="pt-2">
+                    <div class="pt-6">
                         
-                        <input class="bg-slate-100 rounded border-slate-50 px-1 w-12" type="text" placeholder="W" id=""> cm  &nbsp;&nbsp;
-                        <input class="w-12 px-1 bg-slate-100 rounded border-slate-50	" type="text" placeholder="I" id=""> cm
+                        <input class="bg-slate-100 rounded border-slate-50 px-1 w-12" type="text" placeholder="W" id="rectangle-width"> cm  &nbsp;&nbsp;
+                        <input class="w-12 px-1 bg-slate-100 rounded border-slate-50	" type="text" placeholder="I" id="rectangle-height"> cm
                         
                     </div>
                     
                     <!-- button div -->
                     <div class="pt-9 pb-3"> 
-                        <button class="rounded   bg-blue-600 font-medium px-14 py-2 text-1xl	text-white">Calculate</button>
+                        <button id="rectangle-btn" class="rounded   bg-blue-600 font-medium px-14 py-2 text-1xl	text-white">Calculate</button>
                     </div>
         </div>
                 
@@ -105,7 +99,7 @@
             
                 <!-- image div -->
                 <div class="">
-                    <img src="images/parallelogram.png" style="height: 150px; width:200px" alt="" srcset="">
+                    <img src="images/parallelogram.png" class="card-positioning" style="height: 150px; width:200px" alt="" srcset="">
                 </div>
     
                 <div class="text-center mt-5">
@@ -133,15 +127,19 @@
                         AREA CALCULATION AND DISPLAY SECTION IS HERE
 ==============================================================================================-->
 
-            <div class="h-auto w-3/4 rounded border  p-5" id="area-calculation">
+            <div class="h-auto  rounded border  p-5" id="area-calculation">
                 <h1 class="font-bold text-center" >Area Calculation</h1>
                 <div class="pt-6" id="triangle-result-display">
                     <p>1. Triangle  <span id="triangle-result"></span>&nbsp;<button id="" class="rounded bg-blue-600 text-small btn-space text-white">Convert to m<sup>2</sup></button></p>
                 </div>
+                <!-- rectangle area display -->
+                <div class="pt-6" id="rectangle-result-display">
+                    <p>2. Rectangle  <span id="rectangle-result"></span>&nbsp;<button id="rectangle-btn" class="rounded bg-blue-600 text-small btn-space text-white">Convert to m<sup>2</sup></button></p>
+                </div>
             </div>
         </div>
 
-        <!-- ------------2nd Row----------- -->
+        <!-- -----------------------------------2nd Row starts here--------------------- -->
 
         <div class=" flex mt-5 justify-between w-3/4  space-x-9 mb-8">
             <!-- card-one -->

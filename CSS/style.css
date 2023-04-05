@@ -8,3 +8,16 @@
 
     display: none;
 }
+#rectangle-result-display{
+    display: none;
+}
+#area-calculation{
+    width: 300px;
+}
+
+.card-positioning{
+    height: 175px; 
+    width:229px;     
+    padding-left: 22px; 
+    padding-top: 27px;
+}
