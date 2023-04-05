@@ -7,6 +7,8 @@
     <title>Document</title>
     <!-- tailwind link -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="CSS/style.css">
 
 </head>
 <body class="">
@@ -43,8 +45,8 @@
                     <!-- input box -->
                     <div class="pt-2">
                         
-                        <input class="  bg-slate-100 rounded border-slate-50 px-1 	w-16" type="text" placeholder="b" id="triangle-base-field"> cm  &nbsp;&nbsp;
-                        <input class=" w-16 px-1 bg-slate-100 rounded border-slate-50" type="text" placeholder="h" id="triangle-height-field"> cm
+                        <input class="  bg-slate-100 rounded border-slate-50 px-1 	w-12" type="text" placeholder="b" id="triangle-base-field"> cm  &nbsp;&nbsp;
+                        <input class=" w-12 px-1 bg-slate-100 rounded border-slate-50" type="text" placeholder="h" id="triangle-height-field"> cm
                         
                     </div>
                     
@@ -125,8 +127,11 @@
 
             <!-- card 4 -->
 
-            <div class="h-auto w-80 rounded border  p-5">
-                <h1 class="font-bold text-center">Area Calculation</h1>
+            <div class="h-auto w-3/4 rounded border  p-5" id="area-calculation">
+                <h1 class="font-bold text-center" >Area Calculation</h1>
+                <div class="pt-6">
+                    <p>1. Triangle <span id="triangle-result"></span> <button id="" class="rounded bg-blue-600 text-xs	 px-1 py-1  	text-white">Convert to m<sup>2</sup></button></p>
+                </div>
             </div>
         </div>
         <!-- -------------------------------2nd Row------------------------------------- -->
@@ -193,7 +198,7 @@
             
                 <!-- image div -->
                 <div class="">
-                    <img src="images/ellipse.png" style="height: 155px;" alt="" srcset="">
+                    <img src="images/ellipse.png" style="height: 155px; width: 250px;" alt="" srcset="">
                 </div>
     
                 <div class="text-center mt-5">
